@@ -30,8 +30,8 @@ function kiusi(){
   await page.goto('https://milubeau.github.io/trang/chayomine.html');  
      
   console.log('----222 XONG0-222-------');
-  setTimeout(async () => await await page.close(), 290000);
-  setTimeout(async () => await browser.close(), 295000);
+  setTimeout(async () => await await page.close(), 190000);
+  setTimeout(async () => await browser.close(), 195000);
   console.log('----222 XONG--------');
   
   })();
@@ -41,7 +41,7 @@ function f() {
     console.log('-222222 .  111111111111-------trong f -----------');
     kiusi();
     console.log(Date()); 
-    setTimeout( f, 300000 ); 
+    setTimeout( f, 200000 ); 
     console.log('--222222 .  tttttttttt--') 
 }
 
